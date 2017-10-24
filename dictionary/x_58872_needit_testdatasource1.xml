@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="TestDataSource1" max_length="40" name="x_58872_needit_testdatasource1" type="collection">
+        <element attributes="import_attribute_name=DoB,edge_encryption_enabled=true" label="DoB" max_length="40" name="u_dob" type="string"/>
+        <element attributes="import_attribute_name=EmpID" label="EmpID" max_length="40" name="u_empid" type="integer"/>
+        <element attributes="import_attribute_name=EmpName,edge_encryption_enabled=true" label="EmpName" max_length="40" name="u_empname" type="string"/>
+        <element attributes="import_attribute_name=Experience" label="Experience" max_length="40" name="u_experience" type="integer"/>
+        <element attributes="import_attribute_name=Technology,edge_encryption_enabled=true" label="Technology" max_length="40" name="u_technology" type="string"/>
+    </element>
+</database>

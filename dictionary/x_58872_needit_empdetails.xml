@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="EmpDetails" max_length="40" name="x_58872_needit_empdetails" type="collection">
+        <element label="Date of  Birth" max_length="80" name="date_of_birth" type="glide_date"/>
+        <element label="Emp ID" max_length="80" name="emp_id" type="integer"/>
+        <element label="Emp Name" max_length="80" name="emp_name" type="string"/>
+        <element label="Experience" max_length="80" name="experience" type="integer"/>
+        <element label="Technology" max_length="80" name="technology" type="string"/>
+        <index name="index">
+            <element name="emp_id"/>
+        </index>
+    </element>
+</database>
